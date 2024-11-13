@@ -1,15 +1,15 @@
-# adventofcode-xxxx
+# aoc-xxxx
 Solutions to xxxx [Advent of Code] [1]
 
 ## Project Setup
-This project creates a folder for each day problem for Advent of Code solutions.  Basic structure is:
+This project creates a folder for each day problem.  Basic structure is:
 
 Folder  	| Description
 -------		| ------------- 
 DayXX    	| Contains solutions for the day    
 Templates	| Submodule containing cmake templates used for generating the code for the day
 Tools		| Submodule containing scripts used to automate generation of the days project files
-lib			| Submodule containing libraries created for Advent of code.  Mostly used to parse input data
+lib			| Submodule containing libraries.  Mostly used to parse input data
 
 #### DayXX Details
 File			| Description
@@ -58,6 +58,6 @@ Similar to a command line build, the cmake generator (-G) can be used to create 
     > cp DayXX.txt Debug/
 
  [1]: https://adventofcode.com/        "Advent of Code"
- [2]: https://github.com/vipermuffin/adventofcode-cmake-templates        "Templates"
- [3]: https://github.com/vipermuffin/adventofcode-tools        "Tools"
- [4]: https://github.com/vipermuffin/adventofcode-lib        "Library"
+ [2]: https://github.com/vipermuffin/aoc-cmake-templates        "Templates"
+ [3]: https://github.com/vipermuffin/aoc-tools        "Tools"
+ [4]: https://github.com/vipermuffin/aoc-lib        "Library"
